@@ -1,0 +1,9 @@
+{
+  "threshold": 3.1901373863220215,
+  "margin": 1.0983669281005861,
+  "development_eer_percent": 21.2598,
+  "development_auc": 0.8976377952755905,
+  "clips": 245,
+  "probability_calibrated": false,
+  "method": "EER operating threshold; nearest 10% of development scores form declared abstention margin"
+}

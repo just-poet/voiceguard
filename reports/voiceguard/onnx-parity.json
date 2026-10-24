@@ -1,0 +1,60 @@
+{
+  "sha256": "a002176436738906edc257621a562beddc8dd904a4680b5c21e2517597ae64db",
+  "source_weights_sha256": "814331d088032bb4c3fa61cc014789eadeed464209dd094ab3a2dd6ffbdce27a",
+  "source_config_sha256": "9e2e2610b2260b421bf2083646dde4747a6a5cdd138015066d83bc61b6b214cf",
+  "onnxruntime_version": "1.31.0",
+  "onnx_version": "1.23.2",
+  "opset": 17,
+  "fixed_input_shape": [
+    1,
+    64600
+  ],
+  "quantized": false,
+  "parity_cases": 34,
+  "development_source_ids": [
+    "en_f_EN_P_61",
+    "en_f_lj_LJ039-0233",
+    "en_f_lj_LJ010-0125",
+    "en_f_EN_A_5267",
+    "hi_f_other_01351",
+    "hi_f_books_08874",
+    "hi_f_other_00350",
+    "hi_f_books_02373",
+    "TAM_F_ALEXA_00233",
+    "TAM_F_ALEXA_00446",
+    "TAM_F_ALEXA_00591",
+    "TAM_F_ALEXA_00218",
+    "LA_D_2679014",
+    "LA_D_1377420",
+    "LA_D_1363550",
+    "LA_D_9743014"
+  ],
+  "max_absolute_tensor_error": 3.814697265625e-06,
+  "tolerance": {
+    "atol": 0.0001,
+    "rtol": 0.0001
+  },
+  "timings": [
+    {
+      "threads": 1,
+      "p50_ms": 372.77689995244145,
+      "p95_ms": 383.60481500276364
+    },
+    {
+      "threads": 2,
+      "p50_ms": 294.6794999879785,
+      "p95_ms": 345.3627650043927
+    },
+    {
+      "threads": 4,
+      "p50_ms": 257.889750006143,
+      "p95_ms": 289.4301649823319
+    },
+    {
+      "threads": 6,
+      "p50_ms": 253.14294995041564,
+      "p95_ms": 296.19499496766366
+    }
+  ],
+  "recommended_threads": 4
+}

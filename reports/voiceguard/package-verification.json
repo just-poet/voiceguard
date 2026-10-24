@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "package_files_verified": 264,
+  "package_sha256": "f5b2485687dc62d63e4277704167c0e4e4adcbd0c59396a110a6b65649408afd",
+  "extracted_directory": "D:\\VoiceGuardData\\temp\\voiceguard-package-pal8kv77\\VoiceGuard",
+  "python": "D:\\VoiceGuardData\\venv\\Scripts\\python.exe",
+  "external_datasets_available": false,
+  "fresh_environment": false,
+  "environment_note": "Uses the tested D: environment; package source and demo assets are independently extracted.",
+  "examples": [
+    {
+      "example": "English \u00b7 bona fide",
+      "score": -5.838322639465332,
+      "verdict": "Likely bona fide",
+      "windows": 12
+    },
+    {
+      "example": "English \u00b7 synthetic",
+      "score": 6.5532426834106445,
+      "verdict": "Likely synthetic",
+      "windows": 12
+    },
+    {
+      "example": "Hindi \u00b7 synthetic",
+      "score": 4.8614501953125,
+      "verdict": "Likely synthetic",
+      "windows": 12
+    },
+    {
+      "example": "Hindi \u00b7 bona fide",
+      "score": -12.339434623718262,
+      "verdict": "Likely bona fide",
+      "windows": 12
+    },
+    {
+      "example": "Tamil \u00b7 bona fide",
+      "score": -20.288270950317383,
+      "verdict": "Likely bona fide",
+      "windows": 9
+    },
+    {
+      "example": "Tamil \u00b7 synthetic",
+      "score": 14.551751136779785,
+      "verdict": "Likely synthetic",
+      "windows": 10
+    },
+    {
+      "example": "partial",
+      "score": -9.175352096557617,
+      "verdict": "Likely bona fide",
+      "windows": 12
+    },
+    {
+      "example": "sham real to real",
+      "score": -12.100523948669434,
+      "verdict": "Likely bona fide",
+      "windows": 12
+    },
+    {
+      "example": "full real",
+      "score": -10.587031364440918,
+      "verdict": "Likely bona fide",
+      "windows": 12
+    },
+    {
+      "example": "full synthetic",
+      "score": 3.7634007930755615,
+      "verdict": "Likely synthetic",
+      "windows": 12
+    }
+  ],
+  "backend": "onnx_cpu"
+}

@@ -1,0 +1,14 @@
+
+> voiceguard@0.2.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 19 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.42 kB │ gzip:  0.30 kB
+dist/assets/index-iHdk2Gzl.css    8.11 kB │ gzip:  2.58 kB
+dist/assets/index-BwVfNCgO.js   250.04 kB │ gzip: 77.89 kB
+
+✓ built in 587ms

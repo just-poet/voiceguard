@@ -1,0 +1,1717 @@
+[
+  {
+    "source_id": "en_f_EN_P_61",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 1.347485065460205,
+    "candidate_score": -10.80908203125
+  },
+  {
+    "source_id": "en_f_lj_LJ039-0233",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 3.7436695098876953,
+    "candidate_score": 3.0398781299591064
+  },
+  {
+    "source_id": "en_f_lj_LJ010-0125",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 2.7046782970428467,
+    "candidate_score": -10.040438652038574
+  },
+  {
+    "source_id": "en_f_EN_A_5267",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 5.025913238525391,
+    "candidate_score": 1.681784987449646
+  },
+  {
+    "source_id": "en_f_EN_F_6402",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 1.8981997966766357,
+    "candidate_score": -11.382678031921387
+  },
+  {
+    "source_id": "en_f_libri_5456-24741-0001",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 3.32704496383667,
+    "candidate_score": 9.526947021484375
+  },
+  {
+    "source_id": "en_f_EN_W_5005",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 1.0148077011108398,
+    "candidate_score": 1.9512617588043213
+  },
+  {
+    "source_id": "en_f_EN_P_2880",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 2.8227245807647705,
+    "candidate_score": 3.4796879291534424
+  },
+  {
+    "source_id": "en_f_EN_H_3978",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 2.320216178894043,
+    "candidate_score": 6.875967979431152
+  },
+  {
+    "source_id": "en_f_EN_W_3515",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": -0.16997437179088593,
+    "candidate_score": 0.2880724370479584
+  },
+  {
+    "source_id": "en_f_EN_O_2426",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 1.6249380111694336,
+    "candidate_score": 3.533280611038208
+  },
+  {
+    "source_id": "en_f_libri_1363-139304-0043",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 5.527817249298096,
+    "candidate_score": -5.514991283416748
+  },
+  {
+    "source_id": "en_f_lj_LJ048-0062",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 4.6765851974487305,
+    "candidate_score": -7.265926361083984
+  },
+  {
+    "source_id": "en_f_EN_W_4087",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 4.918418884277344,
+    "candidate_score": 6.326688289642334
+  },
+  {
+    "source_id": "en_f_EN_H_583",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 4.263191223144531,
+    "candidate_score": -5.577764987945557
+  },
+  {
+    "source_id": "en_f_EN_A_3756",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 3.1828670501708984,
+    "candidate_score": -13.948503494262695
+  },
+  {
+    "source_id": "en_f_EN_H_3293",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 0.5210136771202087,
+    "candidate_score": 5.889857292175293
+  },
+  {
+    "source_id": "en_f_libri_2911-12359-0001",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 3.905007839202881,
+    "candidate_score": 11.412572860717773
+  },
+  {
+    "source_id": "en_f_EN_F_1772",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 5.147894859313965,
+    "candidate_score": 9.285510063171387
+  },
+  {
+    "source_id": "en_f_EN_O_490",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 2.6352224349975586,
+    "candidate_score": 6.331770896911621
+  },
+  {
+    "source_id": "en_f_lj_LJ018-0060",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 1.8899028301239014,
+    "candidate_score": 9.454965591430664
+  },
+  {
+    "source_id": "en_f_lj_LJ025-0004",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 0.34008321166038513,
+    "candidate_score": 7.552795886993408
+  },
+  {
+    "source_id": "en_f_EN_W_1008",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 5.726980686187744,
+    "candidate_score": -1.0039973258972168
+  },
+  {
+    "source_id": "en_f_EN_A_6043",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 4.80190896987915,
+    "candidate_score": 6.275345802307129
+  },
+  {
+    "source_id": "en_f_EN_W_4575",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 4.891662120819092,
+    "candidate_score": -3.8982129096984863
+  },
+  {
+    "source_id": "en_f_EN_O_1956",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 2.7539052963256836,
+    "candidate_score": 14.506156921386719
+  },
+  {
+    "source_id": "en_f_libri_1926-143879-0026",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 2.516026496887207,
+    "candidate_score": -15.42926025390625
+  },
+  {
+    "source_id": "en_f_libri_1963-142776-0032",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 3.506319284439087,
+    "candidate_score": 11.481314659118652
+  },
+  {
+    "source_id": "en_f_EN_E_287",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 3.562532663345337,
+    "candidate_score": 8.281102180480957
+  },
+  {
+    "source_id": "en_f_lj_LJ032-0067",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": -0.6938818693161011,
+    "candidate_score": 5.383127212524414
+  },
+  {
+    "source_id": "en_f_lj_LJ005-0034",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 5.913718223571777,
+    "candidate_score": 13.609028816223145
+  },
+  {
+    "source_id": "en_f_lj_LJ049-0206",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 4.736006736755371,
+    "candidate_score": 6.616792678833008
+  },
+  {
+    "source_id": "en_f_lj_LJ002-0287",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 4.635803699493408,
+    "candidate_score": -6.090018272399902
+  },
+  {
+    "source_id": "en_f_EN_P_4349",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 4.401525497436523,
+    "candidate_score": 5.957469463348389
+  },
+  {
+    "source_id": "en_f_E_P_4703",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 2.1370537281036377,
+    "candidate_score": -7.145960807800293
+  },
+  {
+    "source_id": "en_f_EN_E_424",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 2.038149356842041,
+    "candidate_score": -6.109707832336426
+  },
+  {
+    "source_id": "en_f_EN_O_2758",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 0.46111491322517395,
+    "candidate_score": -14.546607971191406
+  },
+  {
+    "source_id": "en_f_lj_LJ033-0181",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 4.631663799285889,
+    "candidate_score": -7.483297348022461
+  },
+  {
+    "source_id": "en_f_EN_O_3062",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 3.848102569580078,
+    "candidate_score": -1.5510139465332031
+  },
+  {
+    "source_id": "en_f_lj_LJ038-0025",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 2.248631238937378,
+    "candidate_score": -8.004057884216309
+  },
+  {
+    "source_id": "en_f_libri_32-4137-0021",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 1.6364076137542725,
+    "candidate_score": -12.468502044677734
+  },
+  {
+    "source_id": "en_f_lj_LJ019-0343",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 4.0733747482299805,
+    "candidate_score": -14.911514282226562
+  },
+  {
+    "source_id": "hi_f_other_01351",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": -3.024773120880127,
+    "candidate_score": 8.448370933532715
+  },
+  {
+    "source_id": "hi_f_books_08874",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": -3.2211241722106934,
+    "candidate_score": -13.018077850341797
+  },
+  {
+    "source_id": "hi_f_other_00350",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": -3.55871319770813,
+    "candidate_score": 6.823365211486816
+  },
+  {
+    "source_id": "hi_f_finance_02093",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": -3.865917205810547,
+    "candidate_score": 1.0055556297302246
+  },
+  {
+    "source_id": "hi_f_finance_00477",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": -3.8618037700653076,
+    "candidate_score": 6.70665168762207
+  },
+  {
+    "source_id": "hi_f_books_02373",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": -4.638810634613037,
+    "candidate_score": -4.626497268676758
+  },
+  {
+    "source_id": "hi_f_general_00135",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": -3.1826720237731934,
+    "candidate_score": 7.084138870239258
+  },
+  {
+    "source_id": "hi_f_books_06924",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": -5.093061447143555,
+    "candidate_score": -14.001462936401367
+  },
+  {
+    "source_id": "hi_f_education_02388",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": -4.4382734298706055,
+    "candidate_score": -5.654773235321045
+  },
+  {
+    "source_id": "hi_f_weather_01927",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": -4.385740756988525,
+    "candidate_score": -8.66659164428711
+  },
+  {
+    "source_id": "hi_f_general_01217",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": -2.281139850616455,
+    "candidate_score": 5.539018630981445
+  },
+  {
+    "source_id": "hi_f_education_00338",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": -4.0729265213012695,
+    "candidate_score": -8.638322830200195
+  },
+  {
+    "source_id": "hi_f_weather_01442",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": -1.5651047229766846,
+    "candidate_score": 3.567927598953247
+  },
+  {
+    "source_id": "hi_f_general_01220",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": -4.281330585479736,
+    "candidate_score": 3.5438649654388428
+  },
+  {
+    "source_id": "hi_f_health_02118",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": -3.5934643745422363,
+    "candidate_score": -5.03806209564209
+  },
+  {
+    "source_id": "hi_f_other_05261",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": -1.4986498355865479,
+    "candidate_score": -1.5266797542572021
+  },
+  {
+    "source_id": "hi_f_weather_01588",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": -5.237300872802734,
+    "candidate_score": 3.047724723815918
+  },
+  {
+    "source_id": "hi_f_health_00321",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": -4.389337062835693,
+    "candidate_score": 3.0491654872894287
+  },
+  {
+    "source_id": "hi_f_other_04304",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": -1.8222179412841797,
+    "candidate_score": -5.797895908355713
+  },
+  {
+    "source_id": "hi_f_books_02101",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": -4.320384979248047,
+    "candidate_score": -6.693650245666504
+  },
+  {
+    "source_id": "TAM_F_ALEXA_00233",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 5.901948928833008,
+    "candidate_score": 15.333691596984863
+  },
+  {
+    "source_id": "TAM_F_ALEXA_00446",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 7.346615791320801,
+    "candidate_score": -10.777989387512207
+  },
+  {
+    "source_id": "TAM_F_ALEXA_00591",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": -0.3519074022769928,
+    "candidate_score": 4.566939353942871
+  },
+  {
+    "source_id": "TAM_F_ALEXA_00218",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 8.23105239868164,
+    "candidate_score": -16.613012313842773
+  },
+  {
+    "source_id": "TAM_F_ALEXA_00667",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 7.685074806213379,
+    "candidate_score": -5.9233880043029785
+  },
+  {
+    "source_id": "TAM_F_CONV_01373",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 3.981639862060547,
+    "candidate_score": 12.79797077178955
+  },
+  {
+    "source_id": "TAM_F_CONV_02613",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 6.2395830154418945,
+    "candidate_score": 18.107694625854492
+  },
+  {
+    "source_id": "TAM_F_CONV_00389",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 4.425895690917969,
+    "candidate_score": -0.6643215417861938
+  },
+  {
+    "source_id": "TAM_F_CONV_01204",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 4.6033034324646,
+    "candidate_score": 2.1595418453216553
+  },
+  {
+    "source_id": "TAM_F_DISGUST_00126",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 3.2901082038879395,
+    "candidate_score": -7.1715850830078125
+  },
+  {
+    "source_id": "TAM_F_DISGUST_00694",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 3.1901373863220215,
+    "candidate_score": 14.033211708068848
+  },
+  {
+    "source_id": "TAM_F_DISGUST_00089",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 8.345983505249023,
+    "candidate_score": -7.569255352020264
+  },
+  {
+    "source_id": "TAM_F_DISGUST_00241",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 3.422363519668579,
+    "candidate_score": 11.605083465576172
+  },
+  {
+    "source_id": "TAM_F_DISGUST_00323",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 7.877292633056641,
+    "candidate_score": -10.25204849243164
+  },
+  {
+    "source_id": "TAM_F_DISGUST_00381",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 6.988859176635742,
+    "candidate_score": -2.4338786602020264
+  },
+  {
+    "source_id": "TAM_F_DISGUST_00130",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 3.2912607192993164,
+    "candidate_score": -6.767688274383545
+  },
+  {
+    "source_id": "TAM_F_DISGUST_00287",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 9.42469596862793,
+    "candidate_score": -1.3502168655395508
+  },
+  {
+    "source_id": "TAM_F_DISGUST_00092",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 5.8145928382873535,
+    "candidate_score": -2.9813032150268555
+  },
+  {
+    "source_id": "TAM_F_DISGUST_00681",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 9.88877010345459,
+    "candidate_score": -13.460587501525879
+  },
+  {
+    "source_id": "TAM_F_FEAR_00073",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 4.113651275634766,
+    "candidate_score": -10.041939735412598
+  },
+  {
+    "source_id": "TAM_F_FEAR_00607",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 2.0538008213043213,
+    "candidate_score": 10.989240646362305
+  },
+  {
+    "source_id": "TAM_F_FEAR_00387",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 7.440746307373047,
+    "candidate_score": 7.153425216674805
+  },
+  {
+    "source_id": "TAM_F_FEAR_00715",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 1.3745909929275513,
+    "candidate_score": -0.9835864901542664
+  },
+  {
+    "source_id": "TAM_F_FEAR_00588",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 7.7688775062561035,
+    "candidate_score": -19.757081985473633
+  },
+  {
+    "source_id": "TAM_F_FEAR_00831",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 6.780035018920898,
+    "candidate_score": 9.51254940032959
+  },
+  {
+    "source_id": "TAM_F_FEAR_00003",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 6.179902076721191,
+    "candidate_score": 12.449359893798828
+  },
+  {
+    "source_id": "TAM_F_HAPPY_00425",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 6.32443904876709,
+    "candidate_score": 0.9520034193992615
+  },
+  {
+    "source_id": "TAM_F_HAPPY_00587",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 7.020915985107422,
+    "candidate_score": 5.442379951477051
+  },
+  {
+    "source_id": "TAM_F_HAPPY_00605",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 9.7847261428833,
+    "candidate_score": -18.318763732910156
+  },
+  {
+    "source_id": "TAM_F_HAPPY_00337",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 6.956665515899658,
+    "candidate_score": 11.697870254516602
+  },
+  {
+    "source_id": "TAM_F_HAPPY_00348",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 7.879511833190918,
+    "candidate_score": -8.658782958984375
+  },
+  {
+    "source_id": "TAM_F_HAPPY_00339",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 7.478938579559326,
+    "candidate_score": 5.899597644805908
+  },
+  {
+    "source_id": "TAM_F_HAPPY_00439",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 5.982938766479492,
+    "candidate_score": 7.777778625488281
+  },
+  {
+    "source_id": "TAM_F_HAPPY_00001",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 7.9859490394592285,
+    "candidate_score": 4.642505645751953
+  },
+  {
+    "source_id": "TAM_F_HAPPY_00626",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 1,
+    "baseline_score": 4.85374116897583,
+    "candidate_score": 1.9096004962921143
+  },
+  {
+    "source_id": "TAM_F_HAPPY_00254",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 6.8676676750183105,
+    "candidate_score": -9.877887725830078
+  },
+  {
+    "source_id": "TAM_F_HAPPY_00552",
+    "dataset": "SherryT997/IndicTTS-Deepfake-Challenge-Data",
+    "label": 0,
+    "baseline_score": 6.733595848083496,
+    "candidate_score": -17.374324798583984
+  },
+  {
+    "source_id": "LA_D_2679014",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -11.26237678527832,
+    "candidate_score": -21.55834197998047
+  },
+  {
+    "source_id": "LA_D_1377420",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.610833168029785,
+    "candidate_score": -27.000267028808594
+  },
+  {
+    "source_id": "LA_D_5255870",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -11.0103120803833,
+    "candidate_score": -14.255474090576172
+  },
+  {
+    "source_id": "LA_D_4739519",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -10.133554458618164,
+    "candidate_score": -16.770305633544922
+  },
+  {
+    "source_id": "LA_D_4517590",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.256416320800781,
+    "candidate_score": -15.693321228027344
+  },
+  {
+    "source_id": "LA_D_3232165",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.467947006225586,
+    "candidate_score": -27.90505027770996
+  },
+  {
+    "source_id": "LA_D_2559281",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -9.289834976196289,
+    "candidate_score": -22.57645034790039
+  },
+  {
+    "source_id": "LA_D_9496441",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.620817184448242,
+    "candidate_score": -25.047027587890625
+  },
+  {
+    "source_id": "LA_D_2250508",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.760181427001953,
+    "candidate_score": -25.131385803222656
+  },
+  {
+    "source_id": "LA_D_6980166",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.054884910583496,
+    "candidate_score": -34.221744537353516
+  },
+  {
+    "source_id": "LA_D_1590530",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.951423645019531,
+    "candidate_score": -26.684734344482422
+  },
+  {
+    "source_id": "LA_D_1403371",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -10.878589630126953,
+    "candidate_score": -15.672324180603027
+  },
+  {
+    "source_id": "LA_D_2414004",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.044361114501953,
+    "candidate_score": -10.599800109863281
+  },
+  {
+    "source_id": "LA_D_4455776",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.632351875305176,
+    "candidate_score": -19.062419891357422
+  },
+  {
+    "source_id": "LA_D_4574058",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -11.301076889038086,
+    "candidate_score": -20.37535858154297
+  },
+  {
+    "source_id": "LA_D_8844357",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -15.106780052185059,
+    "candidate_score": -32.864078521728516
+  },
+  {
+    "source_id": "LA_D_9841868",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.594953536987305,
+    "candidate_score": -27.183013916015625
+  },
+  {
+    "source_id": "LA_D_4145630",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.877973556518555,
+    "candidate_score": -42.71380615234375
+  },
+  {
+    "source_id": "LA_D_6931611",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -8.31273078918457,
+    "candidate_score": -20.396839141845703
+  },
+  {
+    "source_id": "LA_D_4511951",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -14.669672012329102,
+    "candidate_score": -33.09735870361328
+  },
+  {
+    "source_id": "LA_D_7509663",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.974764823913574,
+    "candidate_score": -32.75196075439453
+  },
+  {
+    "source_id": "LA_D_5386683",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.035238265991211,
+    "candidate_score": -26.60088539123535
+  },
+  {
+    "source_id": "LA_D_9523504",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.75567626953125,
+    "candidate_score": -29.610427856445312
+  },
+  {
+    "source_id": "LA_D_6710328",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -14.625307083129883,
+    "candidate_score": -38.089202880859375
+  },
+  {
+    "source_id": "LA_D_7238018",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.341861724853516,
+    "candidate_score": -27.908737182617188
+  },
+  {
+    "source_id": "LA_D_1047731",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -11.187506675720215,
+    "candidate_score": -8.758049011230469
+  },
+  {
+    "source_id": "LA_D_6397937",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -11.002243041992188,
+    "candidate_score": -5.412801265716553
+  },
+  {
+    "source_id": "LA_D_8222020",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.779037475585938,
+    "candidate_score": -32.562461853027344
+  },
+  {
+    "source_id": "LA_D_2160989",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.367500305175781,
+    "candidate_score": -13.498027801513672
+  },
+  {
+    "source_id": "LA_D_5870696",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -9.699920654296875,
+    "candidate_score": -7.131106376647949
+  },
+  {
+    "source_id": "LA_D_4443630",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.943887710571289,
+    "candidate_score": -36.89852523803711
+  },
+  {
+    "source_id": "LA_D_3547565",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -10.726734161376953,
+    "candidate_score": -11.504039764404297
+  },
+  {
+    "source_id": "LA_D_8237075",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.783642768859863,
+    "candidate_score": -17.067054748535156
+  },
+  {
+    "source_id": "LA_D_2112837",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.691981315612793,
+    "candidate_score": -25.045825958251953
+  },
+  {
+    "source_id": "LA_D_2666979",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.825867652893066,
+    "candidate_score": -31.317699432373047
+  },
+  {
+    "source_id": "LA_D_8061400",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.494955062866211,
+    "candidate_score": -24.32001495361328
+  },
+  {
+    "source_id": "LA_D_7556397",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -7.904720306396484,
+    "candidate_score": -22.02663230895996
+  },
+  {
+    "source_id": "LA_D_1833136",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -11.859220504760742,
+    "candidate_score": -31.795377731323242
+  },
+  {
+    "source_id": "LA_D_1624385",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.967044830322266,
+    "candidate_score": -18.377344131469727
+  },
+  {
+    "source_id": "LA_D_3806476",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -11.750248908996582,
+    "candidate_score": -13.574685096740723
+  },
+  {
+    "source_id": "LA_D_1766721",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -11.31148910522461,
+    "candidate_score": -21.769004821777344
+  },
+  {
+    "source_id": "LA_D_3726485",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -14.265167236328125,
+    "candidate_score": -26.77570152282715
+  },
+  {
+    "source_id": "LA_D_3552967",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -10.690034866333008,
+    "candidate_score": -17.80756378173828
+  },
+  {
+    "source_id": "LA_D_5431436",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.951894760131836,
+    "candidate_score": -23.244800567626953
+  },
+  {
+    "source_id": "LA_D_3174543",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.11558723449707,
+    "candidate_score": -28.452314376831055
+  },
+  {
+    "source_id": "LA_D_1376638",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.54754638671875,
+    "candidate_score": -24.891704559326172
+  },
+  {
+    "source_id": "LA_D_6056778",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.75987434387207,
+    "candidate_score": -24.85700225830078
+  },
+  {
+    "source_id": "LA_D_4523147",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -10.471822738647461,
+    "candidate_score": -16.387081146240234
+  },
+  {
+    "source_id": "LA_D_5019937",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.033069610595703,
+    "candidate_score": -32.20057678222656
+  },
+  {
+    "source_id": "LA_D_1849134",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -11.186239242553711,
+    "candidate_score": -22.06995391845703
+  },
+  {
+    "source_id": "LA_D_9480023",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.581336975097656,
+    "candidate_score": -25.509124755859375
+  },
+  {
+    "source_id": "LA_D_1618135",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -9.299503326416016,
+    "candidate_score": -22.570444107055664
+  },
+  {
+    "source_id": "LA_D_9841321",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.74013900756836,
+    "candidate_score": -28.30294418334961
+  },
+  {
+    "source_id": "LA_D_3315698",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -10.003410339355469,
+    "candidate_score": -18.81034278869629
+  },
+  {
+    "source_id": "LA_D_5547400",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.337112426757812,
+    "candidate_score": -23.83559799194336
+  },
+  {
+    "source_id": "LA_D_5521273",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -14.880455017089844,
+    "candidate_score": -35.54076385498047
+  },
+  {
+    "source_id": "LA_D_3771133",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -11.011889457702637,
+    "candidate_score": -15.032358169555664
+  },
+  {
+    "source_id": "LA_D_5324608",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -10.40676498413086,
+    "candidate_score": -13.516363143920898
+  },
+  {
+    "source_id": "LA_D_2448116",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -11.950197219848633,
+    "candidate_score": -20.79327392578125
+  },
+  {
+    "source_id": "LA_D_9366582",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.549144744873047,
+    "candidate_score": -22.2978515625
+  },
+  {
+    "source_id": "LA_D_6704472",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.8067626953125,
+    "candidate_score": -28.061195373535156
+  },
+  {
+    "source_id": "LA_D_5701193",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.767488479614258,
+    "candidate_score": -26.97846221923828
+  },
+  {
+    "source_id": "LA_D_2789932",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -9.790407180786133,
+    "candidate_score": -15.450662612915039
+  },
+  {
+    "source_id": "LA_D_6059653",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.842111587524414,
+    "candidate_score": -18.42544174194336
+  },
+  {
+    "source_id": "LA_D_6291895",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.248008728027344,
+    "candidate_score": -20.840858459472656
+  },
+  {
+    "source_id": "LA_D_5769965",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -9.292943000793457,
+    "candidate_score": -14.979436874389648
+  },
+  {
+    "source_id": "LA_D_8980393",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.154556274414062,
+    "candidate_score": -29.76776885986328
+  },
+  {
+    "source_id": "LA_D_7253146",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.348546028137207,
+    "candidate_score": -21.628925323486328
+  },
+  {
+    "source_id": "LA_D_7550546",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.33286190032959,
+    "candidate_score": -28.158580780029297
+  },
+  {
+    "source_id": "LA_D_6668024",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -10.294160842895508,
+    "candidate_score": -19.432025909423828
+  },
+  {
+    "source_id": "LA_D_5989648",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.383214950561523,
+    "candidate_score": -20.335994720458984
+  },
+  {
+    "source_id": "LA_D_7822260",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -13.146757125854492,
+    "candidate_score": -25.51950454711914
+  },
+  {
+    "source_id": "LA_D_3776953",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.541328430175781,
+    "candidate_score": -24.841041564941406
+  },
+  {
+    "source_id": "LA_D_6874297",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.474974632263184,
+    "candidate_score": -28.378040313720703
+  },
+  {
+    "source_id": "LA_D_9512174",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -10.853920936584473,
+    "candidate_score": -23.902559280395508
+  },
+  {
+    "source_id": "LA_D_3212286",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.65243911743164,
+    "candidate_score": -20.010120391845703
+  },
+  {
+    "source_id": "LA_D_1595036",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.525304794311523,
+    "candidate_score": -22.400287628173828
+  },
+  {
+    "source_id": "LA_D_2242311",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -11.93213939666748,
+    "candidate_score": -18.387271881103516
+  },
+  {
+    "source_id": "LA_D_6448946",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.277910232543945,
+    "candidate_score": -18.431903839111328
+  },
+  {
+    "source_id": "LA_D_2954423",
+    "dataset": "ASVspoof2019-LA",
+    "label": 0,
+    "baseline_score": -12.449273109436035,
+    "candidate_score": -18.090465545654297
+  },
+  {
+    "source_id": "LA_D_1363550",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 9.660135269165039,
+    "candidate_score": 17.00992202758789
+  },
+  {
+    "source_id": "LA_D_9743014",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 19.85579490661621,
+    "candidate_score": 38.469825744628906
+  },
+  {
+    "source_id": "LA_D_1360621",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 13.883028030395508,
+    "candidate_score": 31.480356216430664
+  },
+  {
+    "source_id": "LA_D_9908094",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 6.921918869018555,
+    "candidate_score": 6.603595733642578
+  },
+  {
+    "source_id": "LA_D_1002910",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 17.86103057861328,
+    "candidate_score": 14.868005752563477
+  },
+  {
+    "source_id": "LA_D_9863698",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 6.519766807556152,
+    "candidate_score": 12.032349586486816
+  },
+  {
+    "source_id": "LA_D_9005877",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 6.198287010192871,
+    "candidate_score": 14.529329299926758
+  },
+  {
+    "source_id": "LA_D_1105424",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 12.187634468078613,
+    "candidate_score": 23.371252059936523
+  },
+  {
+    "source_id": "LA_D_9947633",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 13.971630096435547,
+    "candidate_score": 19.76830291748047
+  },
+  {
+    "source_id": "LA_D_9982261",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 11.60671329498291,
+    "candidate_score": 2.8952555656433105
+  },
+  {
+    "source_id": "LA_D_2508978",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 16.93720245361328,
+    "candidate_score": 11.900233268737793
+  },
+  {
+    "source_id": "LA_D_9500981",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 12.344952583312988,
+    "candidate_score": 23.0654296875
+  },
+  {
+    "source_id": "LA_D_8328201",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 16.504365921020508,
+    "candidate_score": 28.786174774169922
+  },
+  {
+    "source_id": "LA_D_1337747",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 13.4749755859375,
+    "candidate_score": 32.13231658935547
+  },
+  {
+    "source_id": "LA_D_9966402",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 3.394575595855713,
+    "candidate_score": -0.2520996630191803
+  },
+  {
+    "source_id": "LA_D_9594183",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 12.81561279296875,
+    "candidate_score": 9.052050590515137
+  },
+  {
+    "source_id": "LA_D_1672173",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 7.867789268493652,
+    "candidate_score": 18.757726669311523
+  },
+  {
+    "source_id": "LA_D_9532131",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 8.76414680480957,
+    "candidate_score": 11.629449844360352
+  },
+  {
+    "source_id": "LA_D_9526501",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 16.222089767456055,
+    "candidate_score": 29.358043670654297
+  },
+  {
+    "source_id": "LA_D_9791782",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 12.842395782470703,
+    "candidate_score": 2.3574349880218506
+  },
+  {
+    "source_id": "LA_D_2602530",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 16.45340347290039,
+    "candidate_score": 7.859094619750977
+  },
+  {
+    "source_id": "LA_D_9779729",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 6.266181945800781,
+    "candidate_score": 21.675495147705078
+  },
+  {
+    "source_id": "LA_D_9732033",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 16.328805923461914,
+    "candidate_score": 32.8919677734375
+  },
+  {
+    "source_id": "LA_D_9221112",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 19.01735496520996,
+    "candidate_score": 35.205162048339844
+  },
+  {
+    "source_id": "LA_D_9806108",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 12.339273452758789,
+    "candidate_score": 18.66410255432129
+  },
+  {
+    "source_id": "LA_D_2946880",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 13.737075805664062,
+    "candidate_score": 4.372554302215576
+  },
+  {
+    "source_id": "LA_D_9780174",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 6.873407363891602,
+    "candidate_score": 17.254703521728516
+  },
+  {
+    "source_id": "LA_D_9688627",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 14.865662574768066,
+    "candidate_score": 27.936599731445312
+  },
+  {
+    "source_id": "LA_D_1481062",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 15.679443359375,
+    "candidate_score": 31.32203483581543
+  },
+  {
+    "source_id": "LA_D_9395386",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 16.57410430908203,
+    "candidate_score": 27.151626586914062
+  },
+  {
+    "source_id": "LA_D_2351670",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 7.393233776092529,
+    "candidate_score": 13.749200820922852
+  },
+  {
+    "source_id": "LA_D_8714013",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 20.498138427734375,
+    "candidate_score": 33.97846984863281
+  },
+  {
+    "source_id": "LA_D_8145707",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 17.051206588745117,
+    "candidate_score": 27.161495208740234
+  },
+  {
+    "source_id": "LA_D_2290487",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 11.437332153320312,
+    "candidate_score": 14.831775665283203
+  },
+  {
+    "source_id": "LA_D_1183633",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 18.53883171081543,
+    "candidate_score": 40.87052917480469
+  },
+  {
+    "source_id": "LA_D_8189800",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 16.73067855834961,
+    "candidate_score": 30.298892974853516
+  },
+  {
+    "source_id": "LA_D_1012014",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 16.569578170776367,
+    "candidate_score": 14.330461502075195
+  },
+  {
+    "source_id": "LA_D_9904052",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 17.317962646484375,
+    "candidate_score": 8.231607437133789
+  },
+  {
+    "source_id": "LA_D_9497869",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 8.82650375366211,
+    "candidate_score": 19.915708541870117
+  },
+  {
+    "source_id": "LA_D_1428755",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 14.236102104187012,
+    "candidate_score": 19.233154296875
+  },
+  {
+    "source_id": "LA_D_1082954",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 18.220733642578125,
+    "candidate_score": 39.31404113769531
+  },
+  {
+    "source_id": "LA_D_9974628",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 11.85887336730957,
+    "candidate_score": 5.41441011428833
+  },
+  {
+    "source_id": "LA_D_2930906",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 23.17064666748047,
+    "candidate_score": 22.160287857055664
+  },
+  {
+    "source_id": "LA_D_1608727",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 4.854728698730469,
+    "candidate_score": 15.74166488647461
+  },
+  {
+    "source_id": "LA_D_9077451",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 18.997623443603516,
+    "candidate_score": 31.533761978149414
+  },
+  {
+    "source_id": "LA_D_7883693",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 19.897151947021484,
+    "candidate_score": 33.450740814208984
+  },
+  {
+    "source_id": "LA_D_1651845",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 16.765541076660156,
+    "candidate_score": 16.73617172241211
+  },
+  {
+    "source_id": "LA_D_9935163",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 8.052193641662598,
+    "candidate_score": 24.213314056396484
+  },
+  {
+    "source_id": "LA_D_1232522",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 12.595218658447266,
+    "candidate_score": 24.554637908935547
+  },
+  {
+    "source_id": "LA_D_8666752",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 17.201141357421875,
+    "candidate_score": 36.57888412475586
+  },
+  {
+    "source_id": "LA_D_9566212",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 15.432975769042969,
+    "candidate_score": 29.29916000366211
+  },
+  {
+    "source_id": "LA_D_9898535",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 2.739919662475586,
+    "candidate_score": -3.1838676929473877
+  },
+  {
+    "source_id": "LA_D_1957089",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 18.54376220703125,
+    "candidate_score": 12.7531156539917
+  },
+  {
+    "source_id": "LA_D_2192158",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 10.714831352233887,
+    "candidate_score": 20.876174926757812
+  },
+  {
+    "source_id": "LA_D_1042992",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 21.32070541381836,
+    "candidate_score": 37.081356048583984
+  },
+  {
+    "source_id": "LA_D_8407994",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 12.72390365600586,
+    "candidate_score": 22.46293067932129
+  },
+  {
+    "source_id": "LA_D_1023711",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 15.18440055847168,
+    "candidate_score": 8.39320182800293
+  },
+  {
+    "source_id": "LA_D_2155390",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 21.630355834960938,
+    "candidate_score": 23.534645080566406
+  },
+  {
+    "source_id": "LA_D_1246000",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 9.102730751037598,
+    "candidate_score": 20.978137969970703
+  },
+  {
+    "source_id": "LA_D_1893715",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 8.669580459594727,
+    "candidate_score": 15.979913711547852
+  },
+  {
+    "source_id": "LA_D_1171628",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 19.24335479736328,
+    "candidate_score": 41.603370666503906
+  },
+  {
+    "source_id": "LA_D_9796666",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 15.564491271972656,
+    "candidate_score": 26.34065818786621
+  },
+  {
+    "source_id": "LA_D_1006800",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 7.363277435302734,
+    "candidate_score": -0.13939884305000305
+  },
+  {
+    "source_id": "LA_D_1251679",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 19.712665557861328,
+    "candidate_score": 27.618656158447266
+  },
+  {
+    "source_id": "LA_D_9596577",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 4.659762859344482,
+    "candidate_score": 11.124382019042969
+  },
+  {
+    "source_id": "LA_D_9371038",
+    "dataset": "ASVspoof2019-LA",
+    "label": 1,
+    "baseline_score": 14.24642562866211,
+    "candidate_score": 26.136404037475586
+  }
+]

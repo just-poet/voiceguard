@@ -1,0 +1,100 @@
+{
+  "recorded_at": "2026-10-24T20:31:34Z",
+  "root": "D:\\VoiceGuardData",
+  "archives": {
+    "asv_train_parquet": {
+      "source": "https://huggingface.co/datasets/Bisher/ASVspoof_2019_LA/resolve/aea92dd83a9c56e070c0b1e9f02e7c0d96216a4c/data/train-00000-of-00001.parquet",
+      "bytes": 1586086073,
+      "sha256": "b4eea1063bbcfa0c1cef1b69a96ad8b787c32f662005562b899cd4b461739619",
+      "downloaded_at": "2026-10-24T16:13:32Z",
+      "complete_archive": true
+    },
+    "asv_dev_parquet": {
+      "source": "https://huggingface.co/datasets/Bisher/ASVspoof_2019_LA/resolve/aea92dd83a9c56e070c0b1e9f02e7c0d96216a4c/data/validation-00000-of-00001.parquet",
+      "bytes": 1575535827,
+      "sha256": "9d2c340bb7f04c2d63ac018b224ecdb8c1855c789247232608b650f86c189b16",
+      "downloaded_at": "2026-10-24T16:44:27Z",
+      "complete_archive": true
+    },
+    "asv_test_parquet": {
+      "source": "https://huggingface.co/datasets/Bisher/ASVspoof_2019_LA/resolve/aea92dd83a9c56e070c0b1e9f02e7c0d96216a4c/data/test-00000-of-00001.parquet",
+      "bytes": 4381501164,
+      "sha256": "8159935a94426bc36308278b23cecd8c4ca2a15b778a1087a4a0441d079c86af",
+      "downloaded_at": "2026-10-24T17:54:59Z",
+      "complete_archive": true
+    },
+    "in_the_wild": {
+      "source": "https://huggingface.co/datasets/mueller91/In-The-Wild/resolve/eee168f92c367f8c82ff2cf42b6f61e362fd6211/release_in_the_wild.zip",
+      "bytes": 8161489023,
+      "sha256": "46665f30a6758b45642c659c7e0e80da2ba3d121b064716824a56a010ddf9e1a",
+      "downloaded_at": "2026-10-24T17:42:28Z",
+      "complete_archive": true
+    }
+  },
+  "asv_extracted": {
+    "train": {
+      "count": 25380,
+      "complete_official_split_ids": true,
+      "source": "D:\\VoiceGuardData\\archives\\asv_train_parquet.parquet",
+      "protocol": "D:\\VoiceGuardData\\subsets\\asvspoof2019_la\\ASVspoof2019.LA.cm.train.trn.txt"
+    },
+    "dev": {
+      "count": 24844,
+      "complete_official_split_ids": true,
+      "source": "D:\\VoiceGuardData\\archives\\asv_dev_parquet.parquet",
+      "protocol": "D:\\VoiceGuardData\\subsets\\asvspoof2019_la\\ASVspoof2019.LA.cm.dev.trl.txt"
+    },
+    "test": {
+      "count": 71237,
+      "complete_official_split_ids": true,
+      "source": "D:\\VoiceGuardData\\archives\\asv_test_parquet.parquet",
+      "protocol": "D:\\VoiceGuardData\\subsets\\asvspoof2019_la\\ASVspoof2019.LA.cm.eval.trl.txt"
+    }
+  },
+  "subsets": {
+    "ASVspoof2019-LA": {
+      "records": 1068,
+      "split_counts": {
+        "train": 800,
+        "dev": 160,
+        "test": 108
+      },
+      "manifest": "D:\\VoiceGuardData\\subsets\\asvspoof2019_la\\manifest.jsonl"
+    },
+    "In-the-Wild": {
+      "records": 200,
+      "split_counts": {
+        "test": 200
+      },
+      "manifest": "D:\\VoiceGuardData\\subsets\\in_the_wild\\manifest.jsonl"
+    },
+    "IndicTTS": {
+      "records": 720,
+      "split_counts": {
+        "dev": 99,
+        "train": 520,
+        "test": 101
+      },
+      "manifest": "C:\\Users\\kumar\\OneDrive\\Desktop\\fakecalls\\data\\indictts\\manifest.jsonl"
+    },
+    "Partial proxy": {
+      "records": 240,
+      "split_counts": {
+        "test": 240
+      },
+      "manifest": "D:\\VoiceGuardData\\partials\\manifest.jsonl"
+    }
+  },
+  "asv_all_files": {
+    "audio_files": 121461,
+    "all_manifest_sha256_checked": true,
+    "complete_benchmark_evaluated": false
+  },
+  "in_the_wild_extracted": {
+    "verified": true,
+    "audio_files": 31779,
+    "zip_member_crc_checked": true,
+    "split": "evaluation-only",
+    "complete_benchmark_evaluated": false
+  }
+}

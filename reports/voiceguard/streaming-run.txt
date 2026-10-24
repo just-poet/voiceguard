@@ -1,0 +1,20 @@
+{
+  "backend": "onnx_cpu",
+  "model_sha256": "3807e166fab31ede2b253b493bd07b507f0798dff06ae48236f280426f9c94bb",
+  "encoder_sha256": "814331d088032bb4c3fa61cc014789eadeed464209dd094ab3a2dd6ffbdce27a",
+  "recorded_at": "2026-10-24T17:23:05Z",
+  "latency_scope": "Scored updates after warm-up; raw timings include all packets",
+  "scored_updates": 9,
+  "model": "candidate",
+  "source": "partial_0000.wav",
+  "chunks": 12,
+  "cadence_ms": 500,
+  "p50_roundtrip_ms": 240.6013000290841,
+  "p95_roundtrip_ms": 247.4641400622204,
+  "p95_update_interval_ms": 511.0986250452697,
+  "median_update_interval_ms": 500.48395001795143,
+  "realtime_factor_mean": 0.48128475556667477,
+  "p95_under_500ms": true,
+  "offline_stream_parity": true,
+  "scope": "Timed PCM replay of a partial fake; physical microphone permissions/hardware and cellular capture not tested."
+}

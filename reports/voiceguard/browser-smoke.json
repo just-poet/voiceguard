@@ -1,0 +1,16 @@
+{
+  "upload_to_prediction": "PASS",
+  "uploaded_file": "tamil_29400.wav (public demo)",
+  "model": "candidate",
+  "verdict": "Likely bona fide",
+  "score": -20.288272857666016,
+  "browser_json_export": "PASS",
+  "browser_html_export": "PASS",
+  "mixed_replay_under_concurrent_evaluation": "OVERLOAD STOP as designed after 6 updates",
+  "mixed_clip_detection": "Missed synthetic interval in partial_0000.wav; not a success example",
+  "microphone_hardware": "NOT RUN",
+  "raw_audio_retained": false,
+  "note": "Functional smoke evidence; final isolated timing is recorded separately in streaming.json.",
+  "final_browser_replay": "Started after ONNX upgrade; completion could not be inspected because browser control was disabled in Work settings. Local timed WebSocket test passed separately.",
+  "final_dashboard": "Observed real baseline/candidate results, multilingual/duration tables, raw/displayed-alert F1, and honest failure ledger before browser control was disabled."
+}

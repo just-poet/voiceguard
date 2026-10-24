@@ -1,0 +1,16 @@
+{
+  "latency_scope": "Scored updates after warm-up; raw timings include all packets",
+  "scored_updates": 9,
+  "model": "candidate",
+  "source": "partial_0000.wav",
+  "chunks": 12,
+  "cadence_ms": 500,
+  "p50_roundtrip_ms": 439.0556999715045,
+  "p95_roundtrip_ms": 616.7819599620998,
+  "p95_update_interval_ms": 641.7842849623412,
+  "median_update_interval_ms": 523.2802999671549,
+  "realtime_factor_mean": 0.9398736444353644,
+  "p95_under_500ms": false,
+  "offline_stream_parity": true,
+  "scope": "Timed PCM replay of a partial fake; physical microphone permissions/hardware and cellular capture not tested."
+}

@@ -1,0 +1,15 @@
+{
+  "model": "Official AASIST-L pretrained reference",
+  "parameters": 85306,
+  "cpu_threads": 4,
+  "latency_ms": [
+    670.7401,
+    433.4402,
+    481.4936,
+    607.7733,
+    553.255
+  ],
+  "input_samples": 64600,
+  "training_or_test_accuracy_measured": false,
+  "decision": "Not integrated: observed per-forward CPU latency leaves insufficient margin for a 500ms streaming pipeline. Measurements ran alongside other CPU work and are not a general hardware benchmark."
+}

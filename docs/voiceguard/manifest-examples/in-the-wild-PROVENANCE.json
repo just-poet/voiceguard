@@ -1,0 +1,8 @@
+{
+  "dataset": "in_the_wild",
+  "archive": "https://huggingface.co/datasets/mueller91/In-The-Wild/resolve/main/release_in_the_wild.zip",
+  "selection_seed": 42,
+  "complete_benchmark": false,
+  "clips": 200,
+  "split_policy": "Official ASVspoof splits; In-the-Wild evaluation-only. No test data used for training."
+}

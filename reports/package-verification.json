@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "fresh_environment": "C:\\Users\\kumar\\OneDrive\\Desktop\\fakecalls\\.venv\\Scripts\\python.exe",
+  "demo_examples": [
+    {
+      "example": "english-genuine",
+      "score": 0.56336
+    },
+    {
+      "example": "english-synthetic",
+      "score": 0.83091
+    },
+    {
+      "example": "hindi-synthetic",
+      "score": 0.8272
+    },
+    {
+      "example": "hindi-genuine",
+      "score": 0.33324
+    },
+    {
+      "example": "tamil-genuine",
+      "score": 0.18229
+    },
+    {
+      "example": "tamil-synthetic",
+      "score": 0.78641
+    }
+  ],
+  "partial_clips": 100,
+  "full_dataset_required_to_run": false
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/clovaai/aasist",
+  "revision": "a04c9863f63d44471dde8a6abcb3b082b07cd1d1",
+  "files": {
+    "architecture.py": "9e0d3e80937dd0577beea7883098465a479da23a198ebc0d712abcc59b0bec50",
+    "weights.pth": "814331d088032bb4c3fa61cc014789eadeed464209dd094ab3a2dd6ffbdce27a",
+    "config.json": "9e2e2610b2260b421bf2083646dde4747a6a5cdd138015066d83bc61b6b214cf",
+    "LICENSE": "da2e79b8592d166ef505224300968b80ebe1e4c217c43b94a5ec627d81cd4142"
+  }
+}

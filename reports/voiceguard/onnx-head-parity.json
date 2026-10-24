@@ -1,0 +1,203 @@
+{
+  "passed": true,
+  "cases": 32,
+  "baseline_tolerance": 0.0001,
+  "candidate_tolerance": 0.001,
+  "max_candidate_absolute_error": 1.1444091796875e-05,
+  "records": [
+    {
+      "development_source_id": "en_f_EN_P_61",
+      "duration": 2.0,
+      "baseline_absolute_error": 1.9073486328125e-06,
+      "candidate_absolute_error": 2.86102294921875e-06
+    },
+    {
+      "development_source_id": "en_f_EN_P_61",
+      "duration": 4.0,
+      "baseline_absolute_error": 4.291534423828125e-06,
+      "candidate_absolute_error": 2.86102294921875e-06
+    },
+    {
+      "development_source_id": "en_f_lj_LJ039-0233",
+      "duration": 2.0,
+      "baseline_absolute_error": 4.76837158203125e-07,
+      "candidate_absolute_error": 1.430511474609375e-06
+    },
+    {
+      "development_source_id": "en_f_lj_LJ039-0233",
+      "duration": 4.0,
+      "baseline_absolute_error": 4.291534423828125e-06,
+      "candidate_absolute_error": 5.960464477539062e-07
+    },
+    {
+      "development_source_id": "en_f_lj_LJ010-0125",
+      "duration": 2.0,
+      "baseline_absolute_error": 9.5367431640625e-07,
+      "candidate_absolute_error": 4.76837158203125e-06
+    },
+    {
+      "development_source_id": "en_f_lj_LJ010-0125",
+      "duration": 4.0,
+      "baseline_absolute_error": 2.384185791015625e-07,
+      "candidate_absolute_error": 9.5367431640625e-07
+    },
+    {
+      "development_source_id": "en_f_EN_A_5267",
+      "duration": 2.0,
+      "baseline_absolute_error": 1.9073486328125e-06,
+      "candidate_absolute_error": 3.337860107421875e-06
+    },
+    {
+      "development_source_id": "en_f_EN_A_5267",
+      "duration": 4.0,
+      "baseline_absolute_error": 4.76837158203125e-07,
+      "candidate_absolute_error": 7.152557373046875e-07
+    },
+    {
+      "development_source_id": "hi_f_other_01351",
+      "duration": 2.0,
+      "baseline_absolute_error": 1.0728836059570312e-06,
+      "candidate_absolute_error": 1.9073486328125e-06
+    },
+    {
+      "development_source_id": "hi_f_other_01351",
+      "duration": 4.0,
+      "baseline_absolute_error": 2.384185791015625e-07,
+      "candidate_absolute_error": 9.5367431640625e-07
+    },
+    {
+      "development_source_id": "hi_f_books_08874",
+      "duration": 2.0,
+      "baseline_absolute_error": 3.0994415283203125e-06,
+      "candidate_absolute_error": 0.0
+    },
+    {
+      "development_source_id": "hi_f_books_08874",
+      "duration": 4.0,
+      "baseline_absolute_error": 1.6689300537109375e-06,
+      "candidate_absolute_error": 4.76837158203125e-06
+    },
+    {
+      "development_source_id": "hi_f_other_00350",
+      "duration": 2.0,
+      "baseline_absolute_error": 9.5367431640625e-07,
+      "candidate_absolute_error": 9.5367431640625e-07
+    },
+    {
+      "development_source_id": "hi_f_other_00350",
+      "duration": 4.0,
+      "baseline_absolute_error": 2.384185791015625e-07,
+      "candidate_absolute_error": 4.76837158203125e-07
+    },
+    {
+      "development_source_id": "hi_f_books_02373",
+      "duration": 2.0,
+      "baseline_absolute_error": 5.364418029785156e-06,
+      "candidate_absolute_error": 6.67572021484375e-06
+    },
+    {
+      "development_source_id": "hi_f_books_02373",
+      "duration": 4.0,
+      "baseline_absolute_error": 3.337860107421875e-06,
+      "candidate_absolute_error": 1.9073486328125e-06
+    },
+    {
+      "development_source_id": "TAM_F_ALEXA_00233",
+      "duration": 2.0,
+      "baseline_absolute_error": 1.9073486328125e-06,
+      "candidate_absolute_error": 3.814697265625e-06
+    },
+    {
+      "development_source_id": "TAM_F_ALEXA_00233",
+      "duration": 4.0,
+      "baseline_absolute_error": 4.76837158203125e-07,
+      "candidate_absolute_error": 1.9073486328125e-06
+    },
+    {
+      "development_source_id": "TAM_F_ALEXA_00446",
+      "duration": 2.0,
+      "baseline_absolute_error": 1.9073486328125e-06,
+      "candidate_absolute_error": 7.62939453125e-06
+    },
+    {
+      "development_source_id": "TAM_F_ALEXA_00446",
+      "duration": 4.0,
+      "baseline_absolute_error": 1.9073486328125e-06,
+      "candidate_absolute_error": 9.5367431640625e-07
+    },
+    {
+      "development_source_id": "TAM_F_ALEXA_00591",
+      "duration": 2.0,
+      "baseline_absolute_error": 9.5367431640625e-07,
+      "candidate_absolute_error": 7.152557373046875e-06
+    },
+    {
+      "development_source_id": "TAM_F_ALEXA_00591",
+      "duration": 4.0,
+      "baseline_absolute_error": 8.940696716308594e-07,
+      "candidate_absolute_error": 4.291534423828125e-06
+    },
+    {
+      "development_source_id": "TAM_F_ALEXA_00218",
+      "duration": 2.0,
+      "baseline_absolute_error": 1.430511474609375e-06,
+      "candidate_absolute_error": 9.5367431640625e-07
+    },
+    {
+      "development_source_id": "TAM_F_ALEXA_00218",
+      "duration": 2.7680625,
+      "baseline_absolute_error": 1.9073486328125e-06,
+      "candidate_absolute_error": 3.814697265625e-06
+    },
+    {
+      "development_source_id": "LA_D_2679014",
+      "duration": 2.0,
+      "baseline_absolute_error": 2.384185791015625e-06,
+      "candidate_absolute_error": 1.9073486328125e-06
+    },
+    {
+      "development_source_id": "LA_D_2679014",
+      "duration": 4.0,
+      "baseline_absolute_error": 1.9073486328125e-06,
+      "candidate_absolute_error": 0.0
+    },
+    {
+      "development_source_id": "LA_D_1377420",
+      "duration": 2.0,
+      "baseline_absolute_error": 3.337860107421875e-06,
+      "candidate_absolute_error": 6.67572021484375e-06
+    },
+    {
+      "development_source_id": "LA_D_1377420",
+      "duration": 4.0,
+      "baseline_absolute_error": 4.76837158203125e-06,
+      "candidate_absolute_error": 3.814697265625e-06
+    },
+    {
+      "development_source_id": "LA_D_1363550",
+      "duration": 2.0,
+      "baseline_absolute_error": 0.0,
+      "candidate_absolute_error": 1.1444091796875e-05
+    },
+    {
+      "development_source_id": "LA_D_1363550",
+      "duration": 4.0,
+      "baseline_absolute_error": 2.86102294921875e-06,
+      "candidate_absolute_error": 9.5367431640625e-06
+    },
+    {
+      "development_source_id": "LA_D_9743014",
+      "duration": 2.0,
+      "baseline_absolute_error": 1.9073486328125e-06,
+      "candidate_absolute_error": 1.1444091796875e-05
+    },
+    {
+      "development_source_id": "LA_D_9743014",
+      "duration": 4.0,
+      "baseline_absolute_error": 1.9073486328125e-06,
+      "candidate_absolute_error": 1.1444091796875e-05
+    }
+  ],
+  "thresholds_changed": false,
+  "weights_changed": false
+}

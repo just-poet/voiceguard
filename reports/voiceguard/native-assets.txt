@@ -1,0 +1,10 @@
+{
+  "checkpoint_verified": true,
+  "engines": [
+    "baseline",
+    "candidate"
+  ],
+  "device": "cpu",
+  "ffmpeg": "D:\\VoiceGuardData\\venv\\Lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+  "frontend_built": true
+}

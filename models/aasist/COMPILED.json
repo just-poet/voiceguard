@@ -1,0 +1,7 @@
+{
+  "sha256": "43010379ed2ceb7f57eaa7009c9d4d97fb80ad9d58f254c56e94b06c1cd6d8fd",
+  "source_weights_sha256": "814331d088032bb4c3fa61cc014789eadeed464209dd094ab3a2dd6ffbdce27a",
+  "input_samples": 64600,
+  "torch": "2.11.0+cpu",
+  "method": "torch.jit.trace(check_trace=False), freeze; numeric parity independently tested"
+}

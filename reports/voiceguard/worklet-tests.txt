@@ -1,0 +1,11 @@
+✔ Causal microphone resampler emits exact 500ms packets at 16000 Hz (177.1113ms)
+✔ Causal microphone resampler emits exact 500ms packets at 44100 Hz (246.5463ms)
+✔ Causal microphone resampler emits exact 500ms packets at 48000 Hz (218.0946ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1190.8421

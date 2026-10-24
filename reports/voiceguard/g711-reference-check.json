@@ -1,0 +1,12 @@
+{
+  "mulaw": {
+    "matching_pcm_fraction": 0.9870147705078125,
+    "max_difference": 0.03125,
+    "input_pcm_values": 65536
+  },
+  "alaw": {
+    "matching_pcm_fraction": 0.98529052734375,
+    "max_difference": 0.03125,
+    "input_pcm_values": 65536
+  }
+}

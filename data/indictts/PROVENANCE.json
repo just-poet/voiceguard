@@ -1,0 +1,34 @@
+{
+  "dataset": "https://huggingface.co/datasets/SherryT997/IndicTTS-Deepfake-Challenge-Data",
+  "revision": "57347517658ae989597d8cef303cffb647ed2434",
+  "license": "CC BY 4.0",
+  "attribution": "SherryT997 / IndicTTS Deepfake Detection Challenge dataset",
+  "split": "SHA256 of normalized text: 70% train / 15% dev / 15% test, drawn from public labeled train split",
+  "limitations": [
+    "Speaker identities and TTS tool identities are unavailable. Their holdouts cannot be verified.",
+    "This small subset is a deadline demonstration, not the official challenge split or a multilingual robustness benchmark.",
+    "Clips longer than 6 seconds are truncated; clips under 2 seconds are excluded.",
+    "Do not infer cloning identity, fraud, or language-wide reliability from this baseline."
+  ],
+  "retained_clips": 720,
+  "counts": {
+    "English/dev/label0": 18,
+    "English/train/label1": 81,
+    "English/train/label0": 87,
+    "English/dev/label1": 24,
+    "English/test/label0": 15,
+    "English/test/label1": 15,
+    "Hindi/train/label1": 86,
+    "Hindi/train/label0": 91,
+    "Hindi/dev/label1": 10,
+    "Hindi/dev/label0": 10,
+    "Hindi/test/label1": 24,
+    "Hindi/test/label0": 19,
+    "Tamil/test/label0": 16,
+    "Tamil/train/label1": 90,
+    "Tamil/train/label0": 85,
+    "Tamil/test/label1": 12,
+    "Tamil/dev/label1": 18,
+    "Tamil/dev/label0": 19
+  }
+}

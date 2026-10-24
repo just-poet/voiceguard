@@ -1,0 +1,2 @@
+Constructed from SherryT997/IndicTTS-Deepfake-Challenge-Data, revision 57347517658ae989597d8cef303cffb647ed2434, CC BY 4.0. https://huggingface.co/datasets/SherryT997/IndicTTS-Deepfake-Challenge-Data
+Changes: RMS matching, repeat/crop, crossfaded splices. Full lineage and changes are in manifest.jsonl. These are evaluation proxies, not natural calls.

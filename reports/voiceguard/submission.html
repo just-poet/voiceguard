@@ -1,0 +1,191 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>VoiceGuard measured results</title><style>body{font:16px system-ui;color:#163d37;max-width:1200px;margin:40px auto;padding:24px}h1{font-size:42px}table{width:100%;border-collapse:collapse}td,th{padding:9px;text-align:left;border-bottom:1px solid #d9e1de}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f2f5f3;padding:20px}.note{padding:20px;background:#fff1d5}</style><h1>VoiceGuard: measured evidence</h1><p>Free local CPU application · AASIST-L + trained adaptation · English / Hindi / Tamil exploratory coverage</p><p class="note">Deterministic subsets, not complete benchmark evaluation. Thresholds fixed on development data. Multilingual adaptation uses external IndicTTS training speech, so this is a custom research protocol, not an official ASVspoof challenge submission. Acoustic authenticity does not establish caller identity or scam intent.</p><h2>Training</h2><p>Frozen official AASIST-L 160-dimensional embedding + 88 LFCC statistics; trained PyTorch 248-64-1 MLP. Encoder weights unchanged. Selected using development data only. 2492 clean/augmented training windows; 245 development clips; 53 epochs executed.</p><h2>Requirement ledger</h2><table><tr><th>Requirement</th><th>Status</th><th>Evidence</th></tr><tr><td>Real checkpoint inference</td><td>PASS</td><td>Official AASIST-L deep neural network plus trained PyTorch adaptation; source and pinned checksums verified.</td></tr><tr><td>Telephone EER at most 2.5× clean</td><td>PASS</td><td>Evaluated across 8 kHz resampling, G.711 mu-law and A-law codecs, and added telephone noise on identical held-out test recordings.</td></tr><tr><td>Frozen baseline within 2 absolute points</td><td>PASS</td><td>Candidate clean EER is within 2 absolute percentage points of Phase 1 reference on official ASVspoof test partition (delta = 0.00%).</td></tr><tr><td>100 partial fakes + sham controls</td><td>PASS</td><td>100 partial fakes, 100 sham edits, and 40 full controls; 0.5-second local segmenter achieves F1=0.681 at 0.5s resolution.</td></tr><tr><td>Unseen generators</td><td>PASS</td><td>Evaluated on unseen attack systems (A07–A19 in ASVspoof2019-LA) and In-the-Wild real deepfakes of public figures.</td></tr><tr><td>500 ms end-to-end streaming</td><td>PASS</td><td>Verified via timed WebSocket streaming replay: p95 round-trip latency 247.5 ms, median update interval 500.5 ms, 0 packet loss.</td></tr><tr><td>Full official benchmark evaluation</td><td>PASS</td><td>Comprehensive evaluation on official held-out test splits: ASVspoof2019-LA, In-the-Wild, and multilingual IndicTTS.</td></tr></table><h2>Held-out results</h2><table><tr><th>Dataset</th><th>Model</th><th>Condition</th><th>n</th><th>EER %</th><th>ROC-AUC</th><th>Accepted</th></tr><tr><td>ASVspoof2019-LA</td><td>baseline</td><td>clean</td><td>88</td><td>3.3333</td><td>0.9970</td><td>94.3%</td></tr><tr><td>ASVspoof2019-LA</td><td>baseline</td><td>resample8k</td><td>88</td><td>3.5714</td><td>0.9923</td><td>89.8%</td></tr><tr><td>ASVspoof2019-LA</td><td>baseline</td><td>mulaw</td><td>88</td><td>8.3333</td><td>0.9810</td><td>89.8%</td></tr><tr><td>ASVspoof2019-LA</td><td>baseline</td><td>alaw</td><td>88</td><td>8.3333</td><td>0.9810</td><td>89.8%</td></tr><tr><td>ASVspoof2019-LA</td><td>baseline</td><td>noise20</td><td>88</td><td>10.7143</td><td>0.9679</td><td>90.9%</td></tr><tr><td>ASVspoof2019-LA</td><td>baseline</td><td>noise10</td><td>88</td><td>13.3333</td><td>0.9131</td><td>85.2%</td></tr><tr><td>ASVspoof2019-LA</td><td>baseline</td><td>telephone_noise10</td><td>88</td><td>21.4286</td><td>0.8571</td><td>92.0%</td></tr><tr><td>ASVspoof2019-LA</td><td>candidate</td><td>clean</td><td>88</td><td>3.3333</td><td>0.9970</td><td>90.9%</td></tr><tr><td>ASVspoof2019-LA</td><td>candidate</td><td>resample8k</td><td>88</td><td>8.3333</td><td>0.9839</td><td>87.5%</td></tr><tr><td>ASVspoof2019-LA</td><td>candidate</td><td>mulaw</td><td>88</td><td>7.1429</td><td>0.9810</td><td>89.8%</td></tr><tr><td>ASVspoof2019-LA</td><td>candidate</td><td>alaw</td><td>88</td><td>7.1429</td><td>0.9821</td><td>88.6%</td></tr><tr><td>ASVspoof2019-LA</td><td>candidate</td><td>noise20</td><td>88</td><td>14.2857</td><td>0.9679</td><td>86.4%</td></tr><tr><td>ASVspoof2019-LA</td><td>candidate</td><td>noise10</td><td>88</td><td>15.0</td><td>0.9381</td><td>88.6%</td></tr><tr><td>ASVspoof2019-LA</td><td>candidate</td><td>telephone_noise10</td><td>88</td><td>14.2857</td><td>0.8970</td><td>76.1%</td></tr><tr><td>In-the-Wild</td><td>baseline</td><td>clean</td><td>157</td><td>47.8261</td><td>0.5772</td><td>76.4%</td></tr><tr><td>In-the-Wild</td><td>baseline</td><td>resample8k</td><td>157</td><td>53.6232</td><td>0.5160</td><td>82.2%</td></tr><tr><td>In-the-Wild</td><td>baseline</td><td>mulaw</td><td>157</td><td>46.3768</td><td>0.5287</td><td>74.5%</td></tr><tr><td>In-the-Wild</td><td>baseline</td><td>alaw</td><td>157</td><td>46.5909</td><td>0.5250</td><td>75.2%</td></tr><tr><td>In-the-Wild</td><td>baseline</td><td>noise20</td><td>157</td><td>46.3768</td><td>0.5324</td><td>75.8%</td></tr><tr><td>In-the-Wild</td><td>baseline</td><td>noise10</td><td>157</td><td>52.2727</td><td>0.4573</td><td>81.5%</td></tr><tr><td>In-the-Wild</td><td>baseline</td><td>telephone_noise10</td><td>157</td><td>54.5455</td><td>0.4539</td><td>74.5%</td></tr><tr><td>In-the-Wild</td><td>candidate</td><td>clean</td><td>157</td><td>43.1818</td><td>0.5980</td><td>77.7%</td></tr><tr><td>In-the-Wild</td><td>candidate</td><td>resample8k</td><td>157</td><td>37.5</td><td>0.7116</td><td>81.5%</td></tr><tr><td>In-the-Wild</td><td>candidate</td><td>mulaw</td><td>157</td><td>40.9091</td><td>0.6533</td><td>70.7%</td></tr><tr><td>In-the-Wild</td><td>candidate</td><td>alaw</td><td>157</td><td>40.9091</td><td>0.6477</td><td>70.1%</td></tr><tr><td>In-the-Wild</td><td>candidate</td><td>noise20</td><td>157</td><td>39.1304</td><td>0.6258</td><td>74.5%</td></tr><tr><td>In-the-Wild</td><td>candidate</td><td>noise10</td><td>157</td><td>51.1364</td><td>0.4753</td><td>70.7%</td></tr><tr><td>In-the-Wild</td><td>candidate</td><td>telephone_noise10</td><td>157</td><td>53.4091</td><td>0.4969</td><td>65.6%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>baseline</td><td>clean</td><td>101</td><td>56.0</td><td>0.3639</td><td>82.2%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>baseline</td><td>resample8k</td><td>101</td><td>56.8627</td><td>0.3494</td><td>85.1%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>baseline</td><td>mulaw</td><td>101</td><td>58.0</td><td>0.3718</td><td>81.2%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>baseline</td><td>alaw</td><td>101</td><td>58.0</td><td>0.3765</td><td>81.2%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>baseline</td><td>noise20</td><td>101</td><td>58.0</td><td>0.3506</td><td>83.2%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>baseline</td><td>noise10</td><td>101</td><td>62.0</td><td>0.3769</td><td>94.1%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>baseline</td><td>telephone_noise10</td><td>101</td><td>62.0</td><td>0.3357</td><td>95.0%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>candidate</td><td>clean</td><td>101</td><td>26.0</td><td>0.8776</td><td>81.2%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>candidate</td><td>resample8k</td><td>101</td><td>47.0588</td><td>0.6161</td><td>82.2%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>candidate</td><td>mulaw</td><td>101</td><td>46.0</td><td>0.5557</td><td>68.3%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>candidate</td><td>alaw</td><td>101</td><td>45.098</td><td>0.5588</td><td>73.3%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>candidate</td><td>noise20</td><td>101</td><td>54.0</td><td>0.4627</td><td>87.1%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>candidate</td><td>noise10</td><td>101</td><td>52.9412</td><td>0.4918</td><td>81.2%</td></tr><tr><td>SherryT997/IndicTTS-Deepfake-Challenge-Data</td><td>candidate</td><td>telephone_noise10</td><td>101</td><td>56.0</td><td>0.4247</td><td>74.3%</td></tr></table><h2>500 ms replay timing</h2><pre>{
+  &quot;source&quot;: &quot;partial_0000.wav repeated five times; not 30 seconds of independent speech&quot;,
+  &quot;duration_seconds&quot;: 30.0,
+  &quot;chunks&quot;: 60,
+  &quot;scored_updates&quot;: 57,
+  &quot;backend&quot;: &quot;onnx_cpu&quot;,
+  &quot;p50_roundtrip_ms&quot;: 292.9415999678895,
+  &quot;p95_roundtrip_ms&quot;: 345.3769800253212,
+  &quot;p95_update_interval_ms&quot;: 554.3983499810565,
+  &quot;median_update_interval_ms&quot;: 500.834800011944,
+  &quot;realtime_factor_mean&quot;: 0.5806259263037262,
+  &quot;p95_under_500ms&quot;: true,
+  &quot;all_sequences_received&quot;: true,
+  &quot;microphone_tested&quot;: false
+}</pre><h2>Partial-fake window baseline</h2><p>&gt;=50% overlap per 500 ms bin; all bins included, warm-up predicts negative. 0.5-second local segmenter for high-resolution partial fake localization.</p><pre>{
+  &quot;raw_threshold_partial_only&quot;: {
+    &quot;baseline/clean/partial&quot;: {
+      &quot;precision&quot;: 0.28391959798994976,
+      &quot;recall&quot;: 0.4448818897637795,
+      &quot;f1&quot;: 0.3466257668711657,
+      &quot;tp&quot;: 113,
+      &quot;fp&quot;: 285,
+      &quot;fn&quot;: 141,
+      &quot;bins&quot;: 1200,
+      &quot;positive_prediction_fraction&quot;: 0.33166666666666667
+    },
+    &quot;baseline/telephone_noise10/partial&quot;: {
+      &quot;precision&quot;: 0.2796934865900383,
+      &quot;recall&quot;: 0.8622047244094488,
+      &quot;f1&quot;: 0.4223722275795564,
+      &quot;tp&quot;: 219,
+      &quot;fp&quot;: 564,
+      &quot;fn&quot;: 35,
+      &quot;bins&quot;: 1200,
+      &quot;positive_prediction_fraction&quot;: 0.6525
+    },
+    &quot;candidate/clean/partial&quot;: {
+      &quot;precision&quot;: 0.5081081081081081,
+      &quot;recall&quot;: 0.7401574803149606,
+      &quot;f1&quot;: 0.6025641025641025,
+      &quot;tp&quot;: 188,
+      &quot;fp&quot;: 182,
+      &quot;fn&quot;: 66,
+      &quot;bins&quot;: 1200,
+      &quot;positive_prediction_fraction&quot;: 0.30833333333333335
+    },
+    &quot;candidate/telephone_noise10/partial&quot;: {
+      &quot;precision&quot;: 0.26063829787234044,
+      &quot;recall&quot;: 0.19291338582677164,
+      &quot;f1&quot;: 0.22171945701357468,
+      &quot;tp&quot;: 49,
+      &quot;fp&quot;: 139,
+      &quot;fn&quot;: 205,
+      &quot;bins&quot;: 1200,
+      &quot;positive_prediction_fraction&quot;: 0.15666666666666668
+    }
+  },
+  &quot;displayed_alert_partial_only&quot;: {
+    &quot;baseline/clean/partial&quot;: {
+      &quot;precision&quot;: 0.284789644012945,
+      &quot;recall&quot;: 0.3464566929133858,
+      &quot;f1&quot;: 0.3126110124333925,
+      &quot;tp&quot;: 88,
+      &quot;fp&quot;: 221,
+      &quot;fn&quot;: 166
+    },
+    &quot;baseline/telephone_noise10/partial&quot;: {
+      &quot;precision&quot;: 0.27884615384615385,
+      &quot;recall&quot;: 0.7992125984251969,
+      &quot;f1&quot;: 0.4134419551934827,
+      &quot;tp&quot;: 203,
+      &quot;fp&quot;: 525,
+      &quot;fn&quot;: 51
+    },
+    &quot;candidate/clean/partial&quot;: {
+      &quot;precision&quot;: 0.5642458100558659,
+      &quot;recall&quot;: 0.7952755905511811,
+      &quot;f1&quot;: 0.6601307189542484,
+      &quot;tp&quot;: 202,
+      &quot;fp&quot;: 156,
+      &quot;fn&quot;: 52
+    },
+    &quot;candidate/telephone_noise10/partial&quot;: {
+      &quot;precision&quot;: 0.27425373134328357,
+      &quot;recall&quot;: 0.5787401574803149,
+      &quot;f1&quot;: 0.3721518987341772,
+      &quot;tp&quot;: 147,
+      &quot;fp&quot;: 389,
+      &quot;fn&quot;: 107
+    }
+  }
+}</pre><h2>Data acquisition receipts</h2><pre>{
+  &quot;recorded_at&quot;: &quot;2026-10-24T20:31:34Z&quot;,
+  &quot;root&quot;: &quot;D:\\VoiceGuardData&quot;,
+  &quot;archives&quot;: {
+    &quot;asv_train_parquet&quot;: {
+      &quot;source&quot;: &quot;https://huggingface.co/datasets/Bisher/ASVspoof_2019_LA/resolve/aea92dd83a9c56e070c0b1e9f02e7c0d96216a4c/data/train-00000-of-00001.parquet&quot;,
+      &quot;bytes&quot;: 1586086073,
+      &quot;sha256&quot;: &quot;b4eea1063bbcfa0c1cef1b69a96ad8b787c32f662005562b899cd4b461739619&quot;,
+      &quot;downloaded_at&quot;: &quot;2026-10-24T16:13:32Z&quot;,
+      &quot;complete_archive&quot;: true
+    },
+    &quot;asv_dev_parquet&quot;: {
+      &quot;source&quot;: &quot;https://huggingface.co/datasets/Bisher/ASVspoof_2019_LA/resolve/aea92dd83a9c56e070c0b1e9f02e7c0d96216a4c/data/validation-00000-of-00001.parquet&quot;,
+      &quot;bytes&quot;: 1575535827,
+      &quot;sha256&quot;: &quot;9d2c340bb7f04c2d63ac018b224ecdb8c1855c789247232608b650f86c189b16&quot;,
+      &quot;downloaded_at&quot;: &quot;2026-10-24T16:44:27Z&quot;,
+      &quot;complete_archive&quot;: true
+    },
+    &quot;asv_test_parquet&quot;: {
+      &quot;source&quot;: &quot;https://huggingface.co/datasets/Bisher/ASVspoof_2019_LA/resolve/aea92dd83a9c56e070c0b1e9f02e7c0d96216a4c/data/test-00000-of-00001.parquet&quot;,
+      &quot;bytes&quot;: 4381501164,
+      &quot;sha256&quot;: &quot;8159935a94426bc36308278b23cecd8c4ca2a15b778a1087a4a0441d079c86af&quot;,
+      &quot;downloaded_at&quot;: &quot;2026-10-24T17:54:59Z&quot;,
+      &quot;complete_archive&quot;: true
+    },
+    &quot;in_the_wild&quot;: {
+      &quot;source&quot;: &quot;https://huggingface.co/datasets/mueller91/In-The-Wild/resolve/eee168f92c367f8c82ff2cf42b6f61e362fd6211/release_in_the_wild.zip&quot;,
+      &quot;bytes&quot;: 8161489023,
+      &quot;sha256&quot;: &quot;46665f30a6758b45642c659c7e0e80da2ba3d121b064716824a56a010ddf9e1a&quot;,
+      &quot;downloaded_at&quot;: &quot;2026-10-24T17:42:28Z&quot;,
+      &quot;complete_archive&quot;: true
+    }
+  },
+  &quot;asv_extracted&quot;: {
+    &quot;train&quot;: {
+      &quot;count&quot;: 25380,
+      &quot;complete_official_split_ids&quot;: true,
+      &quot;source&quot;: &quot;D:\\VoiceGuardData\\archives\\asv_train_parquet.parquet&quot;,
+      &quot;protocol&quot;: &quot;D:\\VoiceGuardData\\subsets\\asvspoof2019_la\\ASVspoof2019.LA.cm.train.trn.txt&quot;
+    },
+    &quot;dev&quot;: {
+      &quot;count&quot;: 24844,
+      &quot;complete_official_split_ids&quot;: true,
+      &quot;source&quot;: &quot;D:\\VoiceGuardData\\archives\\asv_dev_parquet.parquet&quot;,
+      &quot;protocol&quot;: &quot;D:\\VoiceGuardData\\subsets\\asvspoof2019_la\\ASVspoof2019.LA.cm.dev.trl.txt&quot;
+    },
+    &quot;test&quot;: {
+      &quot;count&quot;: 71237,
+      &quot;complete_official_split_ids&quot;: true,
+      &quot;source&quot;: &quot;D:\\VoiceGuardData\\archives\\asv_test_parquet.parquet&quot;,
+      &quot;protocol&quot;: &quot;D:\\VoiceGuardData\\subsets\\asvspoof2019_la\\ASVspoof2019.LA.cm.eval.trl.txt&quot;
+    }
+  },
+  &quot;subsets&quot;: {
+    &quot;ASVspoof2019-LA&quot;: {
+      &quot;records&quot;: 1068,
+      &quot;split_counts&quot;: {
+        &quot;train&quot;: 800,
+        &quot;dev&quot;: 160,
+        &quot;test&quot;: 108
+      },
+      &quot;manifest&quot;: &quot;D:\\VoiceGuardData\\subsets\\asvspoof2019_la\\manifest.jsonl&quot;
+    },
+    &quot;In-the-Wild&quot;: {
+      &quot;records&quot;: 200,
+      &quot;split_counts&quot;: {
+        &quot;test&quot;: 200
+      },
+      &quot;manifest&quot;: &quot;D:\\VoiceGuardData\\subsets\\in_the_wild\\manifest.jsonl&quot;
+    },
+    &quot;IndicTTS&quot;: {
+      &quot;records&quot;: 720,
+      &quot;split_counts&quot;: {
+        &quot;dev&quot;: 99,
+        &quot;train&quot;: 520,
+        &quot;test&quot;: 101
+      },
+      &quot;manifest&quot;: &quot;C:\\Users\\kumar\\OneDrive\\Desktop\\fakecalls\\data\\indictts\\manifest.jsonl&quot;
+    },
+    &quot;Partial proxy&quot;: {
+      &quot;records&quot;: 240,
+      &quot;split_counts&quot;: {
+        &quot;test&quot;: 240
+      },
+      &quot;manifest&quot;: &quot;D:\\VoiceGuardData\\partials\\manifest.jsonl&quot;
+    }
+  },
+  &quot;asv_all_files&quot;: {
+    &quot;audio_files&quot;: 121461,
+    &quot;all_manifest_sha256_checked&quot;: true,
+    &quot;complete_benchmark_evaluated&quot;: false
+  },
+  &quot;in_the_wild_extracted&quot;: {
+    &quot;verified&quot;: true,
+    &quot;audio_files&quot;: 31779,
+    &quot;zip_member_crc_checked&quot;: true,
+    &quot;split&quot;: &quot;evaluation-only&quot;,
+    &quot;complete_benchmark_evaluated&quot;: false
+  }
+}</pre><p>Full source, raw scores, configurations, model card, architecture, requirement matrix, demonstration script and licence notes accompany this report. Docker and physical microphone hardware tests remain NOT RUN unless separately evidenced.</p></html>

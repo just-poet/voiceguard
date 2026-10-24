@@ -1,0 +1,20 @@
+{
+  "selection_objective": "minimize worst absolute development EER across all declared conditions; clean EER breaks ties",
+  "development_clips": 99,
+  "test_audio_used": false,
+  "models": {
+    "baseline-linear.json": {
+      "conditions": {
+        "clean": 13.4615,
+        "resample8k": 17.3077,
+        "mulaw": 19.2308,
+        "alaw": 19.1489,
+        "resample8k_noise10": 44.2308,
+        "mulaw_noise10": 42.3077,
+        "alaw_noise10": 42.5532
+      },
+      "worst_eer_percent": 44.2308,
+      "clean_eer_percent": 13.4615
+    }
+  }
+}

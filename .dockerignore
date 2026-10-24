@@ -1,0 +1,10 @@
+.venv
+frontend/node_modules
+tmp
+output
+data/indictts
+data/partials
+experiments
+__pycache__
+.pytest_cache
+models/candidate*

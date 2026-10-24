@@ -1,0 +1,26 @@
+{
+  "ASVspoof2019-LA": {
+    "baseline": {
+      "development_auc_higher_is_synthetic": 1.0,
+      "count": 146,
+      "direction_changed": false
+    },
+    "candidate": {
+      "development_auc_higher_is_synthetic": 1.0,
+      "count": 146,
+      "direction_changed": false
+    }
+  },
+  "SherryT997/IndicTTS-Deepfake-Challenge-Data": {
+    "baseline": {
+      "development_auc_higher_is_synthetic": 0.4504909983633388,
+      "count": 99,
+      "direction_changed": false
+    },
+    "candidate": {
+      "development_auc_higher_is_synthetic": 0.9959083469721768,
+      "count": 99,
+      "direction_changed": false
+    }
+  }
+}

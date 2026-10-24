@@ -1,0 +1,18 @@
+{
+  "model_sha256": "74564b0ef32d921db2bdbe098153febcd15b4a116d756181edfad8282a735027",
+  "selection": {
+    "criterion": "minimum clean development clip EER; no test scores used",
+    "candidates": {
+      "baseline-linear.json": 13.4615,
+      "candidate-trees.json": 8.5106
+    },
+    "selected": "candidate-trees.json"
+  },
+  "thresholds": {
+    "threshold": 0.58117,
+    "local_threshold": 0.50887,
+    "context_bin_threshold": 0.50828
+  },
+  "development_clips": 99,
+  "test_scores_used": false
+}

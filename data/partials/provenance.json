@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "count": 100,
+  "unique_source_pairs": 100,
+  "same_speaker_verified": false,
+  "note": "Repeated source pairs are not independent examples. Splice transitions are included in labels."
+}

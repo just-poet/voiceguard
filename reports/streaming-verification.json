@@ -1,0 +1,29 @@
+{
+  "source_file": "english_17842.wav",
+  "language": "English",
+  "duration_seconds": 6,
+  "chunks": 12,
+  "chunk_ms": 500,
+  "warmup_seconds": 2,
+  "max_score_difference": 0.0,
+  "roundtrip_p50_ms": 28.884400031529367,
+  "roundtrip_p95_ms": 34.457779984222725,
+  "roundtrip_max_ms": 36.56559996306896,
+  "arrival_interval_p50_ms": 498.9802000345662,
+  "all_responses_under_500ms": true,
+  "raw_roundtrip_ms": [
+    24.735999992117286,
+    22.365999990142882,
+    24.5278999209404,
+    36.56559996306896,
+    28.73300004284829,
+    31.83840005658567,
+    32.73320000153035,
+    32.01109997462481,
+    28.3964000409469,
+    29.28239991888404,
+    28.503799927420914,
+    29.035800020210445
+  ],
+  "note": "Local WebSocket replay with real wall-clock 500ms scheduling. This does not validate microphone hardware or cellular capture."
+}

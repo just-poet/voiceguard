@@ -1,0 +1,221 @@
+{
+  "objective": "minimize worst absolute development EER, then clean EER, among candidates satisfying the clean-EER guardrail",
+  "clean_guardrail_percent": 10.5106,
+  "guardrail_basis": "initial selected development clean EER 8.5106% plus 2 percentage points",
+  "test_scores_used_for_selection": false,
+  "development_clips": 99,
+  "candidates": [
+    {
+      "model": "models\\baseline-linear.json",
+      "strategy": "equal_views",
+      "view_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "conditions": {
+        "clean": 13.4615,
+        "resample8k": 17.3077,
+        "mulaw": 19.2308,
+        "alaw": 19.1489,
+        "resample8k_noise10": 44.2308,
+        "mulaw_noise10": 42.3077,
+        "alaw_noise10": 42.5532
+      },
+      "worst_eer_percent": 44.2308,
+      "clean_eer_percent": 13.4615,
+      "eligible": false
+    },
+    {
+      "model": "models\\baseline-linear.json",
+      "strategy": "native_anchor",
+      "view_weights": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "conditions": {
+        "clean": 8.5106,
+        "resample8k": 17.3077,
+        "mulaw": 17.0213,
+        "alaw": 19.1489,
+        "resample8k_noise10": 40.3846,
+        "mulaw_noise10": 36.5385,
+        "alaw_noise10": 40.3846
+      },
+      "worst_eer_percent": 40.3846,
+      "clean_eer_percent": 8.5106,
+      "eligible": true
+    },
+    {
+      "model": "models\\baseline-linear.json",
+      "strategy": "native_only",
+      "view_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "conditions": {
+        "clean": 12.766,
+        "resample8k": 21.1538,
+        "mulaw": 15.3846,
+        "alaw": 21.1538,
+        "resample8k_noise10": 40.4255,
+        "mulaw_noise10": 40.4255,
+        "alaw_noise10": 40.4255
+      },
+      "worst_eer_percent": 40.4255,
+      "clean_eer_percent": 12.766,
+      "eligible": false
+    },
+    {
+      "model": "models\\candidate-trees.json",
+      "strategy": "equal_views",
+      "view_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "conditions": {
+        "clean": 8.5106,
+        "resample8k": 23.0769,
+        "mulaw": 26.9231,
+        "alaw": 21.1538,
+        "resample8k_noise10": 36.5385,
+        "mulaw_noise10": 38.4615,
+        "alaw_noise10": 38.4615
+      },
+      "worst_eer_percent": 38.4615,
+      "clean_eer_percent": 8.5106,
+      "eligible": true
+    },
+    {
+      "model": "models\\candidate-trees.json",
+      "strategy": "native_anchor",
+      "view_weights": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "conditions": {
+        "clean": 5.7692,
+        "resample8k": 21.2766,
+        "mulaw": 21.1538,
+        "alaw": 19.1489,
+        "resample8k_noise10": 34.6154,
+        "mulaw_noise10": 36.1702,
+        "alaw_noise10": 34.6154
+      },
+      "worst_eer_percent": 36.1702,
+      "clean_eer_percent": 5.7692,
+      "eligible": true
+    },
+    {
+      "model": "models\\candidate-trees.json",
+      "strategy": "native_only",
+      "view_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "conditions": {
+        "clean": 5.7692,
+        "resample8k": 21.2766,
+        "mulaw": 21.1538,
+        "alaw": 17.3077,
+        "resample8k_noise10": 30.7692,
+        "mulaw_noise10": 32.6923,
+        "alaw_noise10": 28.8462
+      },
+      "worst_eer_percent": 32.6923,
+      "clean_eer_percent": 5.7692,
+      "eligible": true
+    },
+    {
+      "model": "models\\candidate-svm.json",
+      "strategy": "equal_views",
+      "view_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "conditions": {
+        "clean": 9.6154,
+        "resample8k": 19.1489,
+        "mulaw": 17.3077,
+        "alaw": 17.3077,
+        "resample8k_noise10": 44.6809,
+        "mulaw_noise10": 42.5532,
+        "alaw_noise10": 44.6809
+      },
+      "worst_eer_percent": 44.6809,
+      "clean_eer_percent": 9.6154,
+      "eligible": true
+    },
+    {
+      "model": "models\\candidate-svm.json",
+      "strategy": "native_anchor",
+      "view_weights": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "conditions": {
+        "clean": 1.9231,
+        "resample8k": 19.1489,
+        "mulaw": 17.3077,
+        "alaw": 17.3077,
+        "resample8k_noise10": 40.3846,
+        "mulaw_noise10": 38.4615,
+        "alaw_noise10": 38.4615
+      },
+      "worst_eer_percent": 40.3846,
+      "clean_eer_percent": 1.9231,
+      "eligible": true
+    },
+    {
+      "model": "models\\candidate-svm.json",
+      "strategy": "native_only",
+      "view_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "conditions": {
+        "clean": 1.9231,
+        "resample8k": 19.2308,
+        "mulaw": 17.0213,
+        "alaw": 17.3077,
+        "resample8k_noise10": 40.4255,
+        "mulaw_noise10": 38.4615,
+        "alaw_noise10": 38.2979
+      },
+      "worst_eer_percent": 40.4255,
+      "clean_eer_percent": 1.9231,
+      "eligible": true
+    }
+  ],
+  "selected": {
+    "model": "models\\candidate-trees.json",
+    "strategy": "native_only",
+    "view_weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "conditions": {
+      "clean": 5.7692,
+      "resample8k": 21.2766,
+      "mulaw": 21.1538,
+      "alaw": 17.3077,
+      "resample8k_noise10": 30.7692,
+      "mulaw_noise10": 32.6923,
+      "alaw_noise10": 28.8462
+    },
+    "worst_eer_percent": 32.6923,
+    "clean_eer_percent": 5.7692,
+    "eligible": true
+  },
+  "note": "This round followed an initial test robustness failure. All changes in this round were selected using development data; the initial test report is retained.",
+  "model_sha256": "6757f9475ce35373a14354c7a3bd58ebfd1218b721381218a6b732dffe528c77"
+}

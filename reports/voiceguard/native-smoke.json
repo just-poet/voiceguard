@@ -1,0 +1,16 @@
+{
+  "native_runtime": "D:/VoiceGuardData/venv",
+  "api_online": true,
+  "examples_served": 10,
+  "engines": [
+    "baseline",
+    "candidate"
+  ],
+  "ffmpeg_available": true,
+  "raw_audio_retained": false,
+  "checkpoint_sha256": "814331d088032bb4c3fa61cc014789eadeed464209dd094ab3a2dd6ffbdce27a",
+  "candidate_sha256": "3807e166fab31ede2b253b493bd07b507f0798dff06ae48236f280426f9c94bb",
+  "backend": "onnx_cpu",
+  "onnx_threads": 4,
+  "evaluation_available": true
+}

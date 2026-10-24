@@ -1,0 +1,13 @@
+{
+  "python": "D:\\VoiceGuardData\\venv\\Scripts\\python.exe",
+  "version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "prefix": "D:\\VoiceGuardData\\venv",
+  "modules": {
+    "numpy": "D:\\VoiceGuardData\\venv\\Lib\\site-packages\\numpy\\__init__.py",
+    "torch": "D:\\VoiceGuardData\\venv\\Lib\\site-packages\\torch\\__init__.py",
+    "scipy": "D:\\VoiceGuardData\\venv\\Lib\\site-packages\\scipy\\__init__.py",
+    "fastapi": "D:\\VoiceGuardData\\venv\\Lib\\site-packages\\fastapi\\__init__.py",
+    "pyarrow": "D:\\VoiceGuardData\\venv\\Lib\\site-packages\\pyarrow\\__init__.py"
+  },
+  "local_dependencies": "Repacked from preinstalled distributions after installed RECORD hashes were checked. Receipts: D:/VoiceGuardData/local-wheelhouse/PROVENANCE.json"
+}

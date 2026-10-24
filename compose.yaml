@@ -1,0 +1,11 @@
+services:
+  voiceguard:
+    build: .
+    ports:
+      - "127.0.0.1:8765:8765"
+    environment:
+      VOICEGUARD_DATA: /data
+      VOICEGUARD_THREADS: "4"
+    volumes:
+      - "${VOICEGUARD_DATA:-./data}:/data:ro"
+    restart: "no"

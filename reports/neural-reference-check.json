@@ -1,0 +1,21 @@
+{
+  "note": "Official pretrained reference on first 2 seconds only; no fitting or test data used. Short input differs from original training length.",
+  "results": {
+    "clean": {
+      "eer": {
+        "eer_percent": 51.0638,
+        "threshold": 0.9959216117858887
+      },
+      "p95_ms": 209.370820003096
+    },
+    "mulaw_noise10": {
+      "eer": {
+        "eer_percent": 61.5385,
+        "threshold": 0.9999701976776123
+      },
+      "p95_ms": 229.09962001722306
+    }
+  },
+  "source": "https://github.com/clovaai/aasist",
+  "decision": "Not integrated. The official pretrained reference did not transfer adequately to this three-language development subset with the short input protocol. This is not a general comparison of trained AASIST performance."
+}

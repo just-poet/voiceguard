@@ -1,0 +1,18 @@
+{
+  "dataset": "ASVspoof2019-LA",
+  "official_source": "https://datashare.ed.ac.uk/handle/10283/3336",
+  "mirror_dataset": "Bisher/ASVspoof_2019_LA",
+  "revision": "aea92dd83a9c56e070c0b1e9f02e7c0d96216a4c",
+  "protocol_crosscheck": "Each ID, speaker and label matched to protocol; original split preserved",
+  "complete_benchmark": false,
+  "clips": 1068,
+  "seed": 42,
+  "scope": "800 train / 160 dev / 108 test",
+  "format_note": "Viewer FLAC may be re-encoded; full official archive download is separate",
+  "actual_split_counts": {
+    "train": 800,
+    "dev": 160,
+    "test": 108
+  },
+  "selection_limitation": "Bounded metadata pages yielded only 28 bona fide evaluation records; evaluation also includes 80 synthetic records. Requested balanced count was not reached."
+}

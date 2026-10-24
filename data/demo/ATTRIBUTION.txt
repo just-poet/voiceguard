@@ -1,0 +1,4 @@
+Public examples from SherryT997 / IndicTTS Deepfake Detection Challenge. CC BY 4.0.
+https://huggingface.co/datasets/SherryT997/IndicTTS-Deepfake-Challenge-Data
+Changes: subset selection, mono/16kHz conversion, duration cropping.
+No correctness-based example selection.

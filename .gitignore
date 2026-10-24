@@ -1,0 +1,39 @@
+# Virtual environments & dependencies
+.venv/
+venv/
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Python cache & test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Temporary directories
+tmp/
+output/
+*.log
+
+# Large legacy model dumps
+models/*.json
+models/candidate-svm.json
+models/candidate-trees.json
+models/detector.json
+models/initial-detector.json
+models/frozen/callguard-v1.json
+
+# Keep active AASIST models & calibration
+!models/aasist/**
+
+# Audio data (ignore raw evaluation datasets, keep demo files for UI)
+data/partials/*.wav
+data/indictts/audio/
+data/indictts/*.wav
+data/cache/
+data/asvspoof/
+!data/demo/**
+!data/demo/manifest.jsonl
+!data/partials/manifest.jsonl
+!data/indictts/manifest.jsonl
