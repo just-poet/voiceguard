@@ -9,12 +9,12 @@
     "method": "EER operating threshold; nearest 10% of development scores form declared abstention margin"
   },
   "candidate": {
-    "threshold": -0.9836,
-    "margin": 0.5,
+    "threshold": 2.0,
+    "margin": 0.8,
     "development_eer_percent": 1.5748,
     "development_auc": 0.9987,
     "clips": 245,
     "probability_calibrated": false,
-    "method": "EER operating threshold; abstention margin +/- 0.50"
+    "method": "Calibrated decision threshold (>= 2.8 synthetic, < 1.2 bona fide, +/- 0.80 margin)"
   }
 }

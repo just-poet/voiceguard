@@ -25,6 +25,8 @@ def decode(source,max_seconds=10):
         if len(r.stdout)>int(max_seconds*SR)*4:raise ValueError(f'Audio must be at most {max_seconds} seconds.')
         x=np.frombuffer(r.stdout,dtype='<f4').astype(np.float64)
         if not np.isfinite(x).all():raise ValueError('Invalid audio samples.')
+        peak=float(np.max(np.abs(x))) if len(x) else 0.0
+        if peak>0.8:x=x*(0.6/peak)
         return x
 
 def quality(x):

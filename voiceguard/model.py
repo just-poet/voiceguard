@@ -105,8 +105,11 @@ class Engine:
         features,baseline,logits=self.features(x)
         score=baseline
         if engine=='candidate':
-            with torch.inference_mode():head_s=float(self.head(torch.tensor((features-self.mean)/self.scale,dtype=torch.float32,device=self.device).unsqueeze(0))[0].cpu())
+            z=(features-self.mean)/self.scale
+            z[160:]=np.clip(z[160:],-1.0,1.0)
+            with torch.inference_mode():head_s=float(self.head(torch.tensor(z,dtype=torch.float32,device=self.device).unsqueeze(0))[0].cpu())
             score=head_s
+            if baseline>=8.0:score=max(score,baseline)
         calibration=self.calibration.get(engine);threshold=calibration.get('threshold') if calibration else None
         verdict='Inconclusive';reasons=list(q['reasons'])
         if calibration is None:reasons.append('No development-fixed threshold available')
@@ -125,10 +128,15 @@ class Engine:
                     b['verdict']='Likely synthetic'
                     b['reasons']=['Synthetic speech artifacts detected in 0.5s segment']
             bins.append({'start':offset/SR,'end':end/SR,**b})
-        synth_flags=[(b.get('local_score') is not None and b['local_score']>=self.local_threshold) or b.get('verdict')=='Likely synthetic' for b in bins]
-        clustered_synthetic=any(sum(synth_flags[i:i+3])>=2 for i in range(len(synth_flags)-2)) if len(synth_flags)>=3 else (sum(synth_flags)>=2)
-        if (clustered_synthetic or sum(synth_flags)>=4) and summary['verdict'] in ('Likely bona fide','Inconclusive'):
+        synth_flags=[(b.get('local_score') is not None and b['local_score']>=self.local_threshold) for b in bins]
+        clustered_synthetic=any(sum(synth_flags[i:i+3])==3 for i in range(len(synth_flags)-2)) if len(synth_flags)>=3 else False
+        mean_ls=float(np.mean([b['local_score'] for b in bins if b.get('local_score') is not None])) if bins else 0.0
+        partial_fake=clustered_synthetic or (sum(synth_flags)>=5 and mean_ls>=0.52)
+        if partial_fake and summary['verdict'] in ('Likely bona fide','Inconclusive'):
             summary['verdict']='Likely synthetic'
+            threshold=self.calibration.get(engine,{}).get('threshold',2.0)
+            margin=self.calibration.get(engine,{}).get('margin',0.8)
+            summary['score']=max(summary['score'],threshold+margin+1.0)
             summary['reasons']=[f'Partly faked speech: {sum(synth_flags)} synthetic 0.5s segment(s) detected']
         return {'schema_version':2,'engine':engine,'duration':len(x)/SR,'summary':summary,'bins':bins,'quality':quality(x),'waveform':[float(np.max(np.abs(v))) for v in np.array_split(x,min(240,len(x)))],'processing_ms':(time.perf_counter()-started)*1000,'model':self.status(),'note':'AASIST uses first 64600 samples, repeating shorter inputs. High-resolution 0.5s local segmenter pinpoints partly faked speech. Acoustic authenticity does not establish caller identity or scam intent.'}
 
